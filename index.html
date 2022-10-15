@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DW-PORTFOLIO</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tab.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="header__inner">
+              <div class="header__logo">
+                <a href="#" class="mobile__logo">DAVID</a>
+              </div>
+              <nav class="header__menu">
+                <ul>
+                  <li>
+                    <a href="#">ABOUT</a>
+                  </li>
+                  <li>
+                    <a href="#">PROJECT</a>
+                  </li>
+                  <li>
+                    <a href="#">SCRIPT</a>
+                  </li>
+                  <li>
+                    <a href="#">WORK</a>
+                  </li>
+                  <li>
+                    <a href="#">CONTACT</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="header__right">
+                <div class="mobile__btn">
+                    <span></span>
+                    <span></span>
+                </div>
+              </div>
+              <div class="mobile__menu">
+                
+              </div>
+            <div class="header_back"></div>
+        </header>
+        <!-- //header -->
+        <section id="section1">
+        <div class="main">
+            <span class="sec01__title st05">Professional Frontend Developer</span>
+            <span class="sec01__title st04">Professional Frontend Developer</span>
+            <span class="sec01__title st03">Professional Frontend Developer</span>
+            <span class="sec01__title st02">Professional Frontend Developer</span>
+            <h1 class="st01"
+                data-0="transform: translateX(0%)"
+                data-1000="transform: translateX(-10%)">
+                Professional Frontend Developer
+            </h1>
+            <div class="main__logo">
+                <img src="img/letter-X.png" alt="메인로고">
+            </div>
+        </div>
+        </section>
+        <!-- //section1 -->
+        <section id="section2">
+            <div class="sec02">
+              <p class>어떤 일이라도 <span>노력</span>하고 <span>즐기면</span>  그 결과는 <span>빛</span>을 바란다고<br/>
+                생각합니다. 신입의 <span>열정</span>과 <span>도전정신</span>을 깊숙히 새기며 배움에 <br/>
+                있어 <span>겸손함</span>을 유지하며 세부적인 곳까지<br/>
+                <span>파고드는 개발자</span>가 되겠습니다.</p>
+              <div class="stone" 
+                    data-0="transform: translateY(70%)"
+                    data-1500="transform: translateY(110%)">
+                <img src="img/black-stone.png" alt="">
+              </div>
+              <div class="stone_02" 
+                    data-0="transform: translateY(30%)"
+                    data-1500="transform: translateY(-30%)" alt="">
+                <img src="img/gold-stone.png">
+              </div>
+              <div class="fragments" 
+                    data-0="transform: translateY(300%)"
+                    data-1500="transform: translateY(350%)" alt="">
+                <img src="img/fragments.png">
+              </div>
+            </div>
+        </section>
+        <!-- //section1 -->
+        <div class="scroll">0</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script>
+        let s = skrollr.init({
+            smoothScrolling: true
+        });
+
+        function scroll(){
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            document.querySelector(".scroll").innerHTML = scrollTop.toFixed();
+            requestAnimationFrame(scroll);
+        }
+        scroll();
+    </script>
+</body>
+</html>
