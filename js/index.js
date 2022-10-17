@@ -1,9 +1,5 @@
   window.onload = () => {
 
-    let s = skrollr.init({
-      smoothScrolling: true,
-    });
-    
   gsap.fromTo(".main__logo img",{y: 1500, transform: 'scale(2.5)',}, {
     duration: 1,
     delay: 0.2,
@@ -82,289 +78,289 @@
   })
 }
 
-/* sec02_A, B */
+/* sec03_A, B */
 $(document).scroll(() => {
   if (window.scrollY >= 1700 && window.scrollY <= 3800) {
-    if (!$(".sec02_A .A01").hasClass("visible")) {
+    if (!$(".sec03_A .A01").hasClass("visible")) {
       setTimeout(() => {
-        $(".sec02_C .C01").removeClass("op");
-        $(".sec02_A .A01").addClass("op");
+        $(".sec03_C .C01").removeClass("op");
+        $(".sec03_A .A01").addClass("op");
         setTimeout(() => {
-          $(".sec02_B .B01").addClass("op");
+          $(".sec03_B .B01").addClass("op");
           setTimeout(() => {
-            $(".sec02_A .A01").removeClass("op");
+            $(".sec03_A .A01").removeClass("op");
             setTimeout(() => {
-              $(".sec02_A .A01").addClass("op");
+              $(".sec03_A .A01").addClass("op");
               setTimeout(() => {
-                $(".sec02_B .B01").removeClass("op");
+                $(".sec03_B .B01").removeClass("op");
               }, 15);
             }, 30);
           }, 45);
         }, 60);
       }, 75);
-      $(".sec02_con .A01").addClass("visible");
+      $(".sec03_con .A01").addClass("visible");
     }
   } else if (window.scrollY <= 1200) {
-    $(".sec02_con .A01").removeClass("visible");
-    $(".sec02_con .A01").removeClass("op");
+    $(".sec03_con .A01").removeClass("visible");
+    $(".sec03_con .A01").removeClass("op");
   } else if (window.scrollY >= 3800) {
-    $(".sec02_con .A01").removeClass("visible");
-    $(".sec02_con .A01").removeClass("op");
+    $(".sec03_con .A01").removeClass("visible");
+    $(".sec03_con .A01").removeClass("op");
   }
 
   if (window.scrollY >= 1700 && window.scrollY <= 3800) {
-    if (!$(".sec02_A .A02").hasClass("visible")) {
+    if (!$(".sec03_A .A02").hasClass("visible")) {
       setTimeout(() => {
-        $(".sec02_C .C02").removeClass("op");
-        $(".sec02_A .A02").addClass("op");
+        $(".sec03_C .C02").removeClass("op");
+        $(".sec03_A .A02").addClass("op");
         setTimeout(() => {
-          $(".sec02_B .B02").addClass("op");
+          $(".sec03_B .B02").addClass("op");
           setTimeout(() => {
-            $(".sec02_A .A02").removeClass("op");
+            $(".sec03_A .A02").removeClass("op");
             setTimeout(() => {
-              $(".sec02_A .A02").addClass("op");
+              $(".sec03_A .A02").addClass("op");
               setTimeout(() => {
-                $(".sec02_B .B02").removeClass("op");
+                $(".sec03_B .B02").removeClass("op");
               }, 15);
             }, 30);
           }, 45);
         }, 60);
       }, 270);
-      $(".sec02_con .A02").addClass("visible");
+      $(".sec03_con .A02").addClass("visible");
     }
   } else if (window.scrollY <= 1200) {
-    $(".sec02_con .A02").removeClass("visible");
-    $(".sec02_con .A02").removeClass("op");
+    $(".sec03_con .A02").removeClass("visible");
+    $(".sec03_con .A02").removeClass("op");
   } else if (window.scrollY >= 3800) {
-    $(".sec02_con .A02").removeClass("visible");
-    $(".sec02_con .A02").removeClass("op");
+    $(".sec03_con .A02").removeClass("visible");
+    $(".sec03_con .A02").removeClass("op");
   }
 
   if (window.scrollY >= 1700 && window.scrollY <= 3800) {
-    if (!$(".sec02_A .A03").hasClass("visible")) {
+    if (!$(".sec03_A .A03").hasClass("visible")) {
       setTimeout(() => {
-        $(".sec02_C .C03").removeClass("op");
-        $(".sec02_A .A03").addClass("op");
+        $(".sec03_C .C03").removeClass("op");
+        $(".sec03_A .A03").addClass("op");
         setTimeout(() => {
-          $(".sec02_B .B03").addClass("op");
+          $(".sec03_B .B03").addClass("op");
           setTimeout(() => {
-            $(".sec02_A .A03").removeClass("op");
+            $(".sec03_A .A03").removeClass("op");
             setTimeout(() => {
-              $(".sec02_A .A03").addClass("op");
+              $(".sec03_A .A03").addClass("op");
               setTimeout(() => {
-                $(".sec02_B .B03").removeClass("op");
+                $(".sec03_B .B03").removeClass("op");
               }, 15);
             }, 30);
           }, 45);
         }, 60);
       }, 360);
-      $(".sec02_con .A03").addClass("visible");
+      $(".sec03_con .A03").addClass("visible");
     }
   } else if (window.scrollY <= 1200) {
-    $(".sec02_con .A03").removeClass("visible");
-    $(".sec02_con .A03").removeClass("op");
+    $(".sec03_con .A03").removeClass("visible");
+    $(".sec03_con .A03").removeClass("op");
   } else if (window.scrollY >= 3800) {
-    $(".sec02_con .A03").removeClass("visible");
-    $(".sec02_con .A03").removeClass("op");
+    $(".sec03_con .A03").removeClass("visible");
+    $(".sec03_con .A03").removeClass("op");
   }
 
   if (window.scrollY >= 1700 && window.scrollY <= 3800) {
-    if (!$(".sec02_A .A04").hasClass("visible")) {
+    if (!$(".sec03_A .A04").hasClass("visible")) {
       setTimeout(() => {
-        $(".sec02_C .C04").removeClass("op");
-        $(".sec02_A .A04").addClass("op");
+        $(".sec03_C .C04").removeClass("op");
+        $(".sec03_A .A04").addClass("op");
         setTimeout(() => {
-          $(".sec02_B .B04").addClass("op");
+          $(".sec03_B .B04").addClass("op");
           setTimeout(() => {
-            $(".sec02_A .A04").removeClass("op");
+            $(".sec03_A .A04").removeClass("op");
             setTimeout(() => {
-              $(".sec02_A .A04").addClass("op");
+              $(".sec03_A .A04").addClass("op");
               setTimeout(() => {
-                $(".sec02_B .B04").removeClass("op");
+                $(".sec03_B .B04").removeClass("op");
               }, 15);
             }, 30);
           }, 45);
         }, 60);
       }, 180);
-      $(".sec02_con .A04").addClass("visible");
+      $(".sec03_con .A04").addClass("visible");
     }
   } else if (window.scrollY <= 1200) {
-    $(".sec02_con .A04").removeClass("visible");
-    $(".sec02_con .A04").removeClass("op");
+    $(".sec03_con .A04").removeClass("visible");
+    $(".sec03_con .A04").removeClass("op");
   } else if (window.scrollY >= 3800) {
-    $(".sec02_con .A04").removeClass("visible");
-    $(".sec02_con .A04").removeClass("op");
+    $(".sec03_con .A04").removeClass("visible");
+    $(".sec03_con .A04").removeClass("op");
   }
 
   if (window.scrollY >= 1700 && window.scrollY <= 3800) {
-    if (!$(".sec02_A .A05").hasClass("visible")) {
+    if (!$(".sec03_A .A05").hasClass("visible")) {
       setTimeout(() => {
-        $(".sec02_C .C05").removeClass("op");
-        $(".sec02_A .A05").addClass("op");
+        $(".sec03_C .C05").removeClass("op");
+        $(".sec03_A .A05").addClass("op");
         setTimeout(() => {
-          $(".sec02_B .B05").addClass("op");
+          $(".sec03_B .B05").addClass("op");
           setTimeout(() => {
-            $(".sec02_A .A05").removeClass("op");
+            $(".sec03_A .A05").removeClass("op");
             setTimeout(() => {
-              $(".sec02_A .A05").addClass("op");
+              $(".sec03_A .A05").addClass("op");
               setTimeout(() => {
-                $(".sec02_B .B05").removeClass("op");
+                $(".sec03_B .B05").removeClass("op");
               }, 15);
             }, 30);
           }, 45);
         }, 60);
       }, 450);
-      $(".sec02_con .A05").addClass("visible");
+      $(".sec03_con .A05").addClass("visible");
     }
   } else if (window.scrollY <= 1200) {
-    $(".sec02_con .A05").removeClass("visible");
-    $(".sec02_con .A05").removeClass("op");
+    $(".sec03_con .A05").removeClass("visible");
+    $(".sec03_con .A05").removeClass("op");
   } else if (window.scrollY >= 3800) {
-    $(".sec02_con .A05").removeClass("visible");
-    $(".sec02_con .A05").removeClass("op");
+    $(".sec03_con .A05").removeClass("visible");
+    $(".sec03_con .A05").removeClass("op");
   }
 });
 
-/* sec02_C, D */
+/* sec03_C, D */
 $(document).scroll(() => {
   if (window.scrollY >= 3800 && window.scrollY <= 5500) {
-    if (!$(".sec02_C .C01").hasClass("visible")) {
+    if (!$(".sec03_C .C01").hasClass("visible")) {
       setTimeout(() => {
-        $(".sec02_A .A01").removeClass("op");
-        $(".sec02_C .C01").addClass("op");
+        $(".sec03_A .A01").removeClass("op");
+        $(".sec03_C .C01").addClass("op");
         setTimeout(() => {
-          $(".sec02_D .D01").addClass("op");
+          $(".sec03_D .D01").addClass("op");
           setTimeout(() => {
-            $(".sec02_C .C01").removeClass("op");
+            $(".sec03_C .C01").removeClass("op");
             setTimeout(() => {
-              $(".sec02_C .C01").addClass("op");
+              $(".sec03_C .C01").addClass("op");
               setTimeout(() => {
-                $(".sec02_D .D01").removeClass("op");
+                $(".sec03_D .D01").removeClass("op");
               }, 15);
             }, 30);
           }, 45);
         }, 60);
       }, 75);
-      $(".sec02_con .C01").addClass("visible");
+      $(".sec03_con .C01").addClass("visible");
     }
   } else if (window.scrollY <= 3700) {
-    $(".sec02_con .C01").removeClass("visible");
-    $(".sec02_con .C01").removeClass("op");
+    $(".sec03_con .C01").removeClass("visible");
+    $(".sec03_con .C01").removeClass("op");
   } else if (window.scrollY >= 6000) {
-    $(".sec02_con .C01").removeClass("visible");
-    $(".sec02_con .C01").removeClass("op");
+    $(".sec03_con .C01").removeClass("visible");
+    $(".sec03_con .C01").removeClass("op");
   }
 
   if (window.scrollY >= 3800 && window.scrollY <= 5500) {
-    if (!$(".sec02_C .C02").hasClass("visible")) {
+    if (!$(".sec03_C .C02").hasClass("visible")) {
       setTimeout(() => {
-        $(".sec02_A .A02").removeClass("op");
-        $(".sec02_C .C02").addClass("op");
+        $(".sec03_A .A02").removeClass("op");
+        $(".sec03_C .C02").addClass("op");
         setTimeout(() => {
-          $(".sec02_D .D02").addClass("op");
+          $(".sec03_D .D02").addClass("op");
           setTimeout(() => {
-            $(".sec02_C .C02").removeClass("op");
+            $(".sec03_C .C02").removeClass("op");
             setTimeout(() => {
-              $(".sec02_C .C02").addClass("op");
+              $(".sec03_C .C02").addClass("op");
               setTimeout(() => {
-                $(".sec02_D .D02").removeClass("op");
+                $(".sec03_D .D02").removeClass("op");
               }, 15);
             }, 30);
           }, 45);
         }, 60);
       }, 270);
-      $(".sec02_con .C02").addClass("visible");
+      $(".sec03_con .C02").addClass("visible");
     }
   } else if (window.scrollY <= 3700) {
-    $(".sec02_con .C02").removeClass("visible");
-    $(".sec02_con .C02").removeClass("op");
+    $(".sec03_con .C02").removeClass("visible");
+    $(".sec03_con .C02").removeClass("op");
   } else if (window.scrollY >= 6000) {
-    $(".sec02_con .C02").removeClass("visible");
-    $(".sec02_con .C02").removeClass("op");
+    $(".sec03_con .C02").removeClass("visible");
+    $(".sec03_con .C02").removeClass("op");
   }
 
   if (window.scrollY >= 3800 && window.scrollY <= 5500) {
-    if (!$(".sec02_C .C03").hasClass("visible")) {
+    if (!$(".sec03_C .C03").hasClass("visible")) {
       setTimeout(() => {
-        $(".sec02_A .A03").removeClass("op");
-        $(".sec02_C .C03").addClass("op");
+        $(".sec03_A .A03").removeClass("op");
+        $(".sec03_C .C03").addClass("op");
         setTimeout(() => {
-          $(".sec02_D .D03").addClass("op");
+          $(".sec03_D .D03").addClass("op");
           setTimeout(() => {
-            $(".sec02_C .C03").removeClass("op");
+            $(".sec03_C .C03").removeClass("op");
             setTimeout(() => {
-              $(".sec02_C .C03").addClass("op");
+              $(".sec03_C .C03").addClass("op");
               setTimeout(() => {
-                $(".sec02_D .D03").removeClass("op");
+                $(".sec03_D .D03").removeClass("op");
               }, 15);
             }, 30);
           }, 45);
         }, 60);
       }, 360);
-      $(".sec02_con .C03").addClass("visible");
+      $(".sec03_con .C03").addClass("visible");
     }
   } else if (window.scrollY <= 3700) {
-    $(".sec02_con .C03").removeClass("visible");
-    $(".sec02_con .C03").removeClass("op");
+    $(".sec03_con .C03").removeClass("visible");
+    $(".sec03_con .C03").removeClass("op");
   } else if (window.scrollY >= 6000) {
-    $(".sec02_con .C03").removeClass("visible");
-    $(".sec02_con .C03").removeClass("op");
+    $(".sec03_con .C03").removeClass("visible");
+    $(".sec03_con .C03").removeClass("op");
   }
 
   if (window.scrollY >= 3800 && window.scrollY <= 5500) {
-    if (!$(".sec02_C .C04").hasClass("visible")) {
+    if (!$(".sec03_C .C04").hasClass("visible")) {
       setTimeout(() => {
-        $(".sec02_A .A04").removeClass("op");
-        $(".sec02_C .C04").addClass("op");
+        $(".sec03_A .A04").removeClass("op");
+        $(".sec03_C .C04").addClass("op");
         setTimeout(() => {
-          $(".sec02_D .D04").addClass("op");
+          $(".sec03_D .D04").addClass("op");
           setTimeout(() => {
-            $(".sec02_C .C04").removeClass("op");
+            $(".sec03_C .C04").removeClass("op");
             setTimeout(() => {
-              $(".sec02_C .C04").addClass("op");
+              $(".sec03_C .C04").addClass("op");
               setTimeout(() => {
-                $(".sec02_D .D04").removeClass("op");
+                $(".sec03_D .D04").removeClass("op");
               }, 15);
             }, 30);
           }, 45);
         }, 60);
       }, 180);
-      $(".sec02_con .C04").addClass("visible");
+      $(".sec03_con .C04").addClass("visible");
     }
   } else if (window.scrollY <= 3700) {
-    $(".sec02_con .C04").removeClass("visible");
-    $(".sec02_con .C04").removeClass("op");
+    $(".sec03_con .C04").removeClass("visible");
+    $(".sec03_con .C04").removeClass("op");
   } else if (window.scrollY >= 6000) {
-    $(".sec02_con .C04").removeClass("visible");
-    $(".sec02_con .C04").removeClass("op");
+    $(".sec03_con .C04").removeClass("visible");
+    $(".sec03_con .C04").removeClass("op");
   }
 
   if (window.scrollY >= 3800 && window.scrollY <= 5500) {
-    if (!$(".sec02_C .C05").hasClass("visible")) {
+    if (!$(".sec03_C .C05").hasClass("visible")) {
       setTimeout(() => {
-        $(".sec02_A .A05").removeClass("op");
-        $(".sec02_C .C05").addClass("op");
+        $(".sec03_A .A05").removeClass("op");
+        $(".sec03_C .C05").addClass("op");
         setTimeout(() => {
-          $(".sec02_D .D05").addClass("op");
+          $(".sec03_D .D05").addClass("op");
           setTimeout(() => {
-            $(".sec02_C .C05").removeClass("op");
+            $(".sec03_C .C05").removeClass("op");
             setTimeout(() => {
-              $(".sec02_C .C05").addClass("op");
+              $(".sec03_C .C05").addClass("op");
               setTimeout(() => {
-                $(".sec02_D .D05").removeClass("op");
+                $(".sec03_D .D05").removeClass("op");
               }, 15);
             }, 30);
           }, 45);
         }, 60);
       }, 450);
-      $(".sec02_con .C05").addClass("visible");
+      $(".sec03_con .C05").addClass("visible");
     }
   } else if (window.scrollY <= 3700) {
-    $(".sec02_con .C05").removeClass("visible");
-    $(".sec02_con .C05").removeClass("op");
+    $(".sec03_con .C05").removeClass("visible");
+    $(".sec03_con .C05").removeClass("op");
   } else if (window.scrollY >= 6000) {
-    $(".sec02_con .C05").removeClass("visible");
-    $(".sec02_con .C05").removeClass("op");
+    $(".sec03_con .C05").removeClass("visible");
+    $(".sec03_con .C05").removeClass("op");
   }
 });
 

@@ -9,7 +9,6 @@ header {
     overflow: hidden;
     opacity: 0;
 }
-
 .header_back {
     width: 100%;
     height: 80px;
@@ -24,13 +23,8 @@ header {
     width: 100%;
     height: 80px;
     box-sizing: border-box;
-    padding: 0 80px;
+    padding: 0 20px;
     display: flex;
-}
-@media all and (max-width:1200px) {
-    .header__inner {
-        padding: 0 15px;
-    }  
 }
 
 /* header logo */
@@ -47,17 +41,10 @@ header {
     text-align: center;
     position: absolute;
 }
-@media all and (max-width:700px) {
-  .header__logo__box {
-    width: 30px;
-    height: 30px;
-  }  
-}
 .header__logo__box:hover {
   transition: 1s;
   rotate: 45deg;
 }
-
 .header__logo {
     width: 20px;
     height: 20px;
@@ -66,20 +53,6 @@ header {
     position: absolute;
     margin-top: 30px;
     margin-left: 10px;
-}
-
-@media all and (max-width:1200px) {
-    .header__logo {
-        font-size: 2vw;
-    }  
-}
-@media all and (max-width:700px) {
-    .header__logo {
-      width: 15px;
-      height: 15px;
-      margin-top: 28px;
-      margin-left: 8px;
-    }  
 }
 
 /* scroll */
@@ -94,11 +67,6 @@ header {
     font-size: 0.8vw;
     z-index: 99;
 }
-@media all and (max-width:1200px) {
-    .scroll {
-        display: none;
-    }  
-}
 
 /* header menu */
 .header__menu {
@@ -111,12 +79,6 @@ header {
 .header__menu ul {
     display: block;
 }
-@media all and (max-width:1200px) {
-    .header__menu ul {
-        display: none;
-    }  
-}
-
 .header__menu li {
     display: inline-block;
 }
@@ -143,13 +105,6 @@ header {
     cursor: pointer;
     opacity: 0;
 }
-
-@media all and (max-width:1200px) {
-  .mobile__btn{
-   opacity: 1;
-  }  
-}
-
 .mobile__btn span{
     display: inline-block;
     width: 30px;
@@ -173,7 +128,6 @@ header {
     justify-content: center;
     overflow: hidden;
   }
-
 #section1 h2 {
     color: var(--white);
     font-size: 8vw;
@@ -183,142 +137,65 @@ header {
     bottom: -40%;
     opacity: 0;
 }
-@media all and (max-width:700px) {
-    #section1 h2{
-     opacity: 0;
-    }  
-}
-  #section1 .main__logo {
+#section1 .main__logo {
     width: 34vw;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-  }
-  @media all and (max-width:1200px) {
-    #section1 .main__logo{
-        width: 45vw;
-    }  
-  } 
-  @media all and (max-width:700px) {
-    #section1 .main__logo{
-        width: 65vw;
-    }  
-  }
-
-  #section1 .main__logo img {
+}
+#section1 .main__logo img {
     transform-style: preserve-3d;
     perspective: 1200px; 
-  }
+}
+
 /* sec01 오프닝 */
-    .sec01__title {
-        width: 120%;
-        font-family: "Saint";
-        text-align: center;
-        display: block;
-        position: absolute;
-        left: -20%;
-        white-space: nowrap;
-        opacity: 0;
-        color: var(--white);
-      }
+.sec01__title {
+    width: 120%;
+    font-family: "Saint";
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: -20%;
+    white-space: nowrap;
+    opacity: 0;
+    color: var(--white);
+}
 
-      .st01 {
-        color: var(--white);
-        font-size: 8vw;
-        font-family: "Saint";
-        white-space: nowrap;
-        position: absolute;
-        top: 37%;
-        left: -8%;
-        opacity: 0;
-      }
-    
-     @media all and (max-width:1200px) {
-        .st01{
-        top: 40%;
-         font-size: 12vw;
-        }  
-    }
-      @media all and (max-width:700px) {
-        .st01{
-         top: 40%;
-         left: -100%;
-         font-size: 18vw;
-        }  
-    }
-      .st02 {
-        top: 51%;
-        left: -10%;
-        color: #fff;
-        font-size: 7.5vw;
-      }
-
-      @media all and (max-width:1200px) {
-        .st02{
-         font-size: 10vw;
-        }  
-    }
-      @media all and (max-width:700px) {
-        .st02{
-         left: -93%;
-         font-size: 17vw;
-        }  
-    }
-      .st03 {
-        top: 63%;
-        left: -10%;
-        font-size: 7vw;
-      }
-      @media all and (max-width:1200px) {
-        .st03{
-         font-size: 9vw;
-        }  
-    }
-      @media all and (max-width:700px) {
-        .st03{
-         top: 62%;
-         left: -85%;
-         font-size: 16vw;
-        }  
-    }  
-      .st04 {
-        top: 75%;
-        left: -10%;
-        font-size: 6.5vw;
-      }
-      @media all and (max-width:1200px) {
-        .st04{
-         font-size: 8vw;
-        }  
-    }
-      @media all and (max-width:700px) {
-        .st04{
-         left: -70%;
-         top: 73%;
-         font-size: 14vw;
-        }  
-    }  
-      .st05 {
-        top: 87%;
-        left: -10%;
-        font-size: 6vw;
-      }
-      @media all and (max-width:1200px) {
-        .st05{
-         font-size: 7vw;
-        }  
-    }
-      @media all and (max-width:700px) {
-        .st05{
-         left: -55%;
-         top: 83%;
-         font-size: 12vw;
-        }  
-    }  
-      .op {
-        opacity: 1;
-      }
+.st01 {
+    color: var(--white);
+    font-size: 8vw;
+    font-family: "Saint";
+    white-space: nowrap;
+    position: absolute;
+    top: 37%;
+    left: -8%;
+    opacity: 0;
+}
+.st02 {
+    top: 51%;
+    left: -10%;
+    color: #fff;
+    font-size: 7.5vw;
+}
+.st03 {
+    top: 63%;
+    left: -10%;
+    font-size: 7vw;
+}
+.st04 {
+    top: 75%;
+    left: -10%;
+    font-size: 6.5vw;
+}
+.st05 {
+    top: 87%;
+    left: -10%;
+    font-size: 6vw;
+} 
+.op {
+    opacity: 1;
+}
 
           
 /* section2 */
@@ -328,14 +205,13 @@ header {
     background: var(--black);
     position: relative;
     overflow: hidden;
-  }
-  #section2 .sec02 {
+}
+#section2 .sec02 {
     position: relative;
     width: 100%;
     height: 100%;
-  }
-  
-  #section2 .sec02 p {
+}
+#section2 .sec02 p {
     width: 100%;
     font-size: 1.8vw;
     color: var(--white);
@@ -345,89 +221,37 @@ header {
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: "Gmarket";
-  }
-  @media all and (max-width:1600px) {
-    #section2 .sec02 p {
-        font-size: 2.2vw;
-    }  
-  } 
-  @media all and (max-width:700px) {
-    #section2 .sec02 p {
-        font-size: 3.2vw;
-    }  
-  }
-
-  #section2 span {
+}
+#section2 span {
     color: var(--blue);
-  }
-  #section2 .stone_01 {
+}
+#section2 .stone_01 {
     position: absolute;
     width: 28vw;
     left: -10%;
     z-index: 98;
-  }
-  @media all and (max-width:1200px) {
-    #section2 .stone_01 {
-        width: 40vw;
-        bottom: 50%;
-    }  
-  } 
-  @media all and (max-width:700px) {
-    #section2 .stone_01 {
-        left: -20%;
-        width: 50vw;
-    }  
-  }
-  #section2 .stone_02 {
+}
+#section2 .stone_02 {
     position: absolute;
     width: 28vw;
     right: -15%;
     z-index: 98;
-  }
-  @media all and (max-width:1200px) {
-    #section2 .stone_02 {
-        right: -15%;
-        width: 32vw;
-    }  
-  } 
-  @media all and (max-width:700px) {
-    #section2 .stone_02 {
-        top: 0%;
-        right: -25%;
-        width: 50vw;
-    }  
-  }  
-  #section2 .fragments {
+}
+#section2 .fragments {
     position: absolute;
     width: 22vw;
     right: 15%;
-  }   
-  
-  @media all and (max-width:1200px) {
-    #section2 .fragments {
-        top: 10%;
-        right: 15%;
-        width: 32vw;
-    }  
-  } 
-  @media all and (max-width:700px) {
-    #section2 .fragments {
-        top: 17%;
-        right: 15%;
-        width: 40vw;
-    }  
-  }  
-    
-  /* section2_add */
-
-  #section2_add {
+}   
+        
+/* section3 */
+  #section3 {
     width: 100%;
     height: 400rem;
     background: var(--black);
     position: relative;
   }
   
-  #section2_add .sec02_02 {
+  #section3 .sec03 {
     position: sticky;
     overflow: hidden;
     top: 0;
@@ -435,21 +259,32 @@ header {
     height: 100vh;
   }
   
-  #section2_add .sec02_box {
+  #section3 .sec03_box {
     width: 100%;
     height: 100%;
   }
   
-  #section2_add .sec02_con {
+  #section3 .sec03_con {
     font-family: "Quest";
     color: var(--white);
   }
-  #section2_add .sec02_con span {
+  #section3 .sec03_con span {
     font-family: "Saint";
     color: var(--blue);
   }
+ 
+  #section3 .sec03_con em {
+    opacity: 0;
+  }
+  #section3 .sec03_con .op {
+    opacity: 1;
+  }
+  #section3 .sec03_con .no {
+    opacity: 0;
+  }
   
-  #section2_add .sec02_A {
+  /* sec03_A */
+  #section3 .sec03_A {
     position: absolute;
     transform: translate(0%, -50%);
     width: 100%;
@@ -459,8 +294,29 @@ header {
     top: 50%;
     left: 10%;
   }
-  
-  #section2_add .sec02_B {
+
+  #section3 .sec03_A .A01 {
+    position: absolute;
+  }
+  #section3 .sec03_A .A02 {
+    position: absolute;
+    top: 20%;
+  }
+  #section3 .sec03_A .A03 {
+    position: absolute;
+    top: 39%;
+  }
+  #section3 .sec03_A .A04 {
+    position: absolute;
+    top: 60%;
+  }
+  #section3 .sec03_A .A05 {
+    position: absolute;
+    top: 80%;
+  }
+
+  /* sec03_B */
+  #section3 .sec03_B {
     position: absolute;
     transform: translate(0%, -50%);
     width: 100%;
@@ -470,67 +326,35 @@ header {
     top: 40%;
     left: -5%;
   }
-  
-  #section2_add .sec02_con em {
-    opacity: 0;
-  }
-  #section2_add .sec02_con .op {
-    opacity: 1;
-  }
-  #section2_add .sec02_con .no {
-    opacity: 0;
-  }
-  
-  /* sec02_A */
-  #section2_add .sec02_A .A01 {
-    position: absolute;
-  }
-  #section2_add .sec02_A .A02 {
-    position: absolute;
-    top: 20%;
-  }
-  #section2_add .sec02_A .A03 {
-    position: absolute;
-    top: 39%;
-  }
-  #section2_add .sec02_A .A04 {
-    position: absolute;
-    top: 60%;
-  }
-  #section2_add .sec02_A .A05 {
-    position: absolute;
-    top: 80%;
-  }
-  
-  /* sec02_B */
-  #section2_add .sec02_B .B01 {
+
+  #section3 .sec03_B .B01 {
     position: absolute;
     top: 2%;
     left: 4%;
   }
-  #section2_add .sec02_B .B02 {
+  #section3 .sec03_B .B02 {
     position: absolute;
     top: 25%;
     left: -1%;
   }
-  #section2_add .sec02_B .B03 {
+  #section3 .sec03_B .B03 {
     position: absolute;
     top: 52%;
     left: 7%;
   }
-  #section2_add .sec02_B .B04 {
+  #section3 .sec03_B .B04 {
     position: absolute;
     top: 78%;
     left: 12%;
   }
-  #section2_add .sec02_B .B05 {
+  #section3 .sec03_B .B05 {
     position: absolute;
     top: 105%;
     left: 4%;
   }
-  
-  /* sec02_C */
-  #section2_add .sec02_C {
+
+  /* sec03_C */
+  #section3 .sec03_C {
     position: absolute;
     transform: translate(0%, -50%);
     width: 100%;
@@ -543,8 +367,29 @@ header {
     word-spacing: 1vw;
   }
   
-  /* sec02_C */
-  #section2_add .sec02_D {
+  #section3 .sec03_C .C01 {
+    position: absolute;
+    top: 3%;
+  }
+  #section3 .sec03_C .C02 {
+    position: absolute;
+    top: 22%;
+  }
+  #section3 .sec03_C .C03 {
+    position: absolute;
+    top: 42%;
+  }
+  #section3 .sec03_C .C04 {
+    position: absolute;
+    top: 63%;
+  }
+  #section3 .sec03_C .C05 {
+    position: absolute;
+    top: 84%;
+  }
+  
+  /* sec03_D */
+  #section3 .sec03_D {
     position: absolute;
     transform: translate(0%, -50%);
     width: 100%;
@@ -554,64 +399,40 @@ header {
     top: 40%;
     left: -5%;
   }
-  
-  /* sec02_C */
-  #section2_add .sec02_C .C01 {
-    position: absolute;
-    top: 3%;
-  }
-  #section2_add .sec02_C .C02 {
-    position: absolute;
-    top: 22%;
-  }
-  #section2_add .sec02_C .C03 {
-    position: absolute;
-    top: 42%;
-  }
-  #section2_add .sec02_C .C04 {
-    position: absolute;
-    top: 63%;
-  }
-  #section2_add .sec02_C .C05 {
-    position: absolute;
-    top: 84%;
-  }
-  
-  /* sec02_D */
-  #section2_add .sec02_D .D01 {
+  #section3 .sec03_D .D01 {
     position: absolute;
     top: 7%;
     left: 4%;
   }
-  #section2_add .sec02_D .D02 {
+  #section3 .sec03_D .D02 {
     position: absolute;
     top: 30%;
     left: 6%;
   }
-  #section2_add .sec02_D .D03 {
+  #section3 .sec03_D .D03 {
     position: absolute;
     top: 56%;
     left: 7%;
   }
-  #section2_add .sec02_D .D04 {
+  #section3 .sec03_D .D04 {
     position: absolute;
     top: 83%;
     left: 12%;
   }
-  #section2_add .sec02_D .D05 {
+  #section3 .sec03_D .D05 {
     position: absolute;
     top: 110%;
     left: 4%;
   }
-  /*section2 img */
-  #section2_add .sec02_main {
+
+  /*section3 img */
+  #section3 .sec03_main {
     position: absolute;
     top: 50%;
     right: -3%;
     transform: translate(-50%, -50%);
-    display: none;
   }
-  #section2_add .sec02_main img {
+  #section3 .sec03_main img {
     position: absolute;
     bottom: 20%;
     right: 20%;
@@ -619,13 +440,13 @@ header {
     width: 17vw;
     filter: brightness(0.8);
   }
-  #section2_add .sec02_img {
+  #section3 .sec03_img {
     position: absolute;
     top: 20%;
     right: 0%;
     transform: translate(-50%, -50%);
   }
-  #section2_add .sec02_img img {
+  #section3 .sec03_img img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -634,54 +455,55 @@ header {
     filter: brightness(0.8);
     opacity: 0;
   }
+
   /* 오프닝 */
-  #section2_add .sec02_img .opening_01.picAni {
+  #section3 .sec03_img .opening_01.picAni {
     animation: pic 0.8s linear 0s;
     transform-origin: 100% 0;
   }
-  #section2_add .sec02_img .opening_02.picAni {
+  #section3 .sec03_img .opening_02.picAni {
     animation: pic 0.8s linear 0.1s;
     transform-origin: 100% 0;
   }
-  #section2_add .sec02_img .opening_03.picAni {
+  #section3 .sec03_img .opening_03.picAni {
     animation: pic 0.8s linear 0.2s;
     transform-origin: 100% 0;
   }
-  #section2_add .sec02_img .opening_04.picAni {
+  #section3 .sec03_img .opening_04.picAni {
     animation: pic 0.8s linear 0.3s;
     transform-origin: 100% 0;
   }
-  #section2_add .sec02_img .opening_05.picAni {
+  #section3 .sec03_img .opening_05.picAni {
     animation: pic 0.8s linear 0.4s;
     transform-origin: 100% 0;
   }
   
   /* slider */
-  #section2_add .sec02_img .slider_01.picAni {
+  #section3 .sec03_img .slider_01.picAni {
     animation: pic 5.35s linear 0.4s infinite;
     transform-origin: 100% 0;
   }
-  #section2_add .sec02_img .slider_02.picAni {
+  #section3 .sec03_img .slider_02.picAni {
     animation: pic 5.35s linear 0.95s infinite;
     transform-origin: 100% 0;
   }
-  #section2_add .sec02_img .slider_03.picAni {
+  #section3 .sec03_img .slider_03.picAni {
     animation: pic 5.35s linear 1.5s infinite;
     transform-origin: 100% 0;
   }
-  #section2_add .sec02_img .slider_04.picAni {
+  #section3 .sec03_img .slider_04.picAni {
     animation: pic 5.35s linear 2.05s infinite;
     transform-origin: 100% 0;
   }
-  #section2_add .sec02_img .slider_05.picAni {
+  #section3 .sec03_img .slider_05.picAni {
     animation: pic 5.35s linear 2.6s infinite;
     transform-origin: 100% 0;
   }
-  #section2_add .sec02_img .slider_06.picAni {
+  #section3 .sec03_img .slider_06.picAni {
     animation: pic 5.35s linear 3.15s infinite;
     transform-origin: 100% 0;
   }
-  #section2_add .sec02_img .slider_07.picAni {
+  #section3 .sec03_img .slider_07.picAni {
     animation: pic 5.35s linear 3.7s infinite;
     transform-origin: 100% 0;
   }
@@ -690,10 +512,10 @@ header {
   @keyframes pic {
     0% {
       opacity: 1;
-      transform: rotate(90deg) translate(700px) rotate(-90deg);
+      transform: rotate(90deg) translate(35vw) rotate(-90deg);
     }
     100% {
       opacity: 1;
-      transform: rotate(270deg) translate(700px) rotate(-90deg);
+      transform: rotate(270deg) translate(35vw) rotate(-90deg);
     }
   }

@@ -1,0 +1,182 @@
+@media all and (max-width:700px) {
+
+/* header*/
+.header__logo__box {
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+}
+.header__logo {
+    font-size: 2vw;
+    width: 15px;
+    height: 15px;
+    margin-top: 23px;
+    margin-left: 8px;
+} 
+
+/* scroll*/
+.scroll {
+    display: none;
+}
+
+/* section1*/
+#section1 h2{
+    opacity: 0;
+}
+#section1 .main__logo{
+    width: 65vw;
+}        
+.st01{
+    top: 40%;
+    left: -100%;
+    font-size: 18vw;
+}
+.st02{
+    left: -93%;
+    font-size: 17vw;
+}
+.st03{
+    top: 62%;
+    left: -85%;
+    font-size: 16vw;
+}
+.st04{
+    left: -70%;
+    top: 73%;
+    font-size: 14vw;
+}
+.st05{
+    left: -55%;
+    top: 83%;
+    font-size: 12vw;
+}
+
+/* section2*/
+#section2 .sec02 p {
+    font-size: 3.2vw;
+} 
+#section2 .stone_01 {
+    left: -20%;
+    width: 50vw;
+}  
+#section2 .stone_02 {
+    top: 0%;
+    right: -25%;
+    width: 50vw;
+} 
+#section2 .fragments {
+    top: 17%;
+    right: 15%;
+    width: 40vw;
+}  
+
+/* sec03_A mobile*/
+#section3 .sec03_A  {
+    font-size: 10vw;
+    top: 35%;
+}
+#section3 .sec03_A .A01 {
+    top: 20%;
+}
+#section3 .sec03_A .A02 {
+    top: 30%;
+}
+#section3 .sec03_A .A04 {
+    top: 50%;
+}
+#section3 .sec03_A .A05 {
+    top: 60%;
+}
+
+/* sec03_B mobile*/
+#section3 .sec03_B  {
+    font-size: 11.5vw;
+    top: 30%;
+}
+#section3 .sec03_B .B01 {
+    top: 20%;
+    left: 10%;
+}
+#section3 .sec03_B .B02 {
+    top: 30%;
+    left: 5%;
+}
+#section3 .sec03_B .B03 {
+    top: 40%;
+    left: 10%;
+}
+#section3 .sec03_B .B04 {
+    top: 65%;
+    left: 20%;
+}
+#section3 .sec03_B .B05 {
+    top: 75%;
+    left: 10%;
+}  
+
+
+/* sec03_C mobile*/
+#section3 .sec03_C {
+    font-size: 7vw;
+    top: 75%;
+}
+
+#section3 .sec03_C .C01 {
+    top: 20%;
+}
+#section3 .sec03_C .C02 {
+    top: 30%;
+}
+#section3 .sec03_C .C03 {
+    top: 39%;
+}
+#section3 .sec03_C .C04 {
+    top: 50%;
+}
+#section3 .sec03_C .C05 {
+    top: 60%;
+}
+
+/* sec03_D mobile*/
+#section3 .sec03_D {
+    font-size: 8.5vw;
+    top: 70%;
+}
+#section3 .sec03_D .D01 {
+    top: 20%;
+    left: 10%;
+}
+#section3 .sec03_D .D02 {
+    top: 30%;
+    left: 5%;
+}
+#section3 .sec03_D .D03 {
+    top: 40%;
+    left: 10%;
+}
+#section3 .sec03_D .D04 {
+    top: 65%;
+    left: 20%;
+}
+#section3 .sec03_D .D05 {
+    top: 75%;
+    left: 10%;
+}
+
+/*section3 img */
+#section3 .sec03_img img {
+width: 30vw;
+}
+
+/* 애니메이션 */
+@keyframes pic {
+0% {
+    opacity: 1;
+    transform: rotate(90deg) translate(70vw) rotate(-90deg);
+}
+100% {
+    opacity: 1;
+    transform: rotate(270deg) translate(70vw) rotate(-90deg);
+}
+}
+}
