@@ -1,27 +1,30 @@
+
 /* header */
 header {
     width: 100%;
-    height: 70px;
+    height: 80px;
     position: absolute;
     position: fixed;
     z-index: 99;
     overflow: hidden;
+    opacity: 0;
 }
 
 .header_back {
     width: 100%;
-    height: 70px;
+    height: 80px;
     position: absolute;
     top: 0;
+    left: 0;
     z-index: -1;
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
 }
 .header__inner {
     width: 100%;
-    height: 70px;
+    height: 80px;
     box-sizing: border-box;
-    padding: 0 30px;
+    padding: 0 80px;
     display: flex;
 }
 @media all and (max-width:1200px) {
@@ -31,28 +34,51 @@ header {
 }
 
 /* header logo */
-.header__logo {
-    width: 15%;
-    height: 100%;
+.header__left {
+  width: 15%;
+  height: 100%;
+  position: relative;
+}
+.header__logo__box {
+    width: 40px;
+    height: 40px;
+    border: 2.5px solid var(--white);
+    margin-top: 20px;
+    text-align: center;
+    position: absolute;
+}
+@media all and (max-width:700px) {
+  .header__logo__box {
+    width: 30px;
+    height: 30px;
+  }  
+}
+.header__logo__box:hover {
+  transition: 1s;
+  rotate: 45deg;
 }
 
-.header__logo a{
-    width: 100%;
-    height: 100%;
+.header__logo {
+    width: 20px;
+    height: 20px;
     color: var(--white);
-    line-height: 70px;
-    font-family: "Saint";
-    font-size: 1.8vw;
+    font-size: 1vw;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
 @media all and (max-width:1200px) {
-    .header__logo a{
-        font-size: 3vw;
+    .header__logo {
+        font-size: 2vw;
     }  
 }
 @media all and (max-width:700px) {
-    .header__logo a{
-        font-size: 4vw;
+    .header__logo {
+      width: 15px;
+      height: 15px;
+      margin-top: 28px;
+      margin-left: 8px;
     }  
 }
 
@@ -115,7 +141,15 @@ header {
     height: 15px;
     margin-top: 27.5px;
     cursor: pointer;
+    opacity: 0;
 }
+
+@media all and (max-width:1200px) {
+  .mobile__btn{
+   opacity: 1;
+  }  
+}
+
 .mobile__btn span{
     display: inline-block;
     width: 30px;
@@ -140,7 +174,6 @@ header {
     overflow: hidden;
   }
 
-
 #section1 h2 {
     color: var(--white);
     font-size: 8vw;
@@ -155,31 +188,31 @@ header {
      opacity: 0;
     }  
 }
-
   #section1 .main__logo {
     width: 34vw;
     position: absolute;
     left: 50%;
-    top: 45%;
+    top: 50%;
     transform: translate(-50%,-50%);
-    opacity: 0;
   }
-
   @media all and (max-width:1200px) {
     #section1 .main__logo{
         width: 45vw;
     }  
-} 
-    @media all and (max-width:700px) {
-        #section1 .main__logo{
-         width: 65vw;
-        }  
-    }
+  } 
+  @media all and (max-width:700px) {
+    #section1 .main__logo{
+        width: 65vw;
+    }  
+  }
 
+  #section1 .main__logo img {
+    transform-style: preserve-3d;
+    perspective: 1200px; 
+  }
 /* sec01 오프닝 */
     .sec01__title {
         width: 120%;
-        font-size: 9.8vw;
         font-family: "Saint";
         text-align: center;
         display: block;
@@ -196,26 +229,26 @@ header {
         font-family: "Saint";
         white-space: nowrap;
         position: absolute;
-        top: 35%;
+        top: 37%;
         left: -8%;
         opacity: 0;
       }
     
      @media all and (max-width:1200px) {
         .st01{
+        top: 40%;
          font-size: 12vw;
         }  
     }
       @media all and (max-width:700px) {
         .st01{
+         top: 40%;
          left: -100%;
-         font-size: 20vw;
+         font-size: 18vw;
         }  
     }
-
-
       .st02 {
-        top: 48%;
+        top: 51%;
         left: -10%;
         color: #fff;
         font-size: 7.5vw;
@@ -228,65 +261,66 @@ header {
     }
       @media all and (max-width:700px) {
         .st02{
-        left: -85%;
-         top: 47%;
-         font-size: 18vw;
+         left: -93%;
+         font-size: 17vw;
         }  
     }
       .st03 {
-        top: 60%;
+        top: 63%;
         left: -10%;
         font-size: 7vw;
       }
-        @media all and (max-width:1200px) {
+      @media all and (max-width:1200px) {
         .st03{
-         font-size: 10vw;
+         font-size: 9vw;
         }  
     }
       @media all and (max-width:700px) {
         .st03{
-         left: -70%;
-         top: 58%;
+         top: 62%;
+         left: -85%;
          font-size: 16vw;
         }  
     }  
       .st04 {
-        top: 72%;
+        top: 75%;
         left: -10%;
         font-size: 6.5vw;
       }
       @media all and (max-width:1200px) {
         .st04{
-         font-size: 9vw;
+         font-size: 8vw;
         }  
     }
       @media all and (max-width:700px) {
         .st04{
-         left: -55%;
-         top: 68%;
+         left: -70%;
+         top: 73%;
          font-size: 14vw;
         }  
     }  
       .st05 {
-        top: 84%;
+        top: 87%;
         left: -10%;
         font-size: 6vw;
       }
       @media all and (max-width:1200px) {
         .st05{
-         font-size: 8vw;
+         font-size: 7vw;
         }  
     }
       @media all and (max-width:700px) {
         .st05{
-         left: -40%;
-         top: 77%;
+         left: -55%;
+         top: 83%;
          font-size: 12vw;
         }  
     }  
       .op {
         opacity: 1;
       }
+
+          
 /* section2 */
 #section2 {
     width: 100%;
