@@ -143,20 +143,5 @@
         <!-- section03 -->
         <div class="scroll">0</div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-    <script>
-        let s = skrollr.init({
-            smoothScrolling: true
-        });
-
-        function scroll(){
-            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-            document.querySelector(".scroll").innerHTML = scrollTop.toFixed();
-            requestAnimationFrame(scroll);
-        }
-        scroll();
-    </script>
 </body>
 </html>
