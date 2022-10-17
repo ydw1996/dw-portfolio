@@ -360,21 +360,20 @@ header {
   #section2 span {
     color: var(--blue);
   }
-  #section2 .stone {
+  #section2 .stone_01 {
     position: absolute;
     width: 28vw;
     left: -10%;
     z-index: 98;
   }
   @media all and (max-width:1200px) {
-    #section2 .stone {
+    #section2 .stone_01 {
         width: 40vw;
         bottom: 50%;
     }  
   } 
   @media all and (max-width:700px) {
-    #section2 .stone {
-        top: 60%;
+    #section2 .stone_01 {
         left: -20%;
         width: 50vw;
     }  
@@ -419,4 +418,282 @@ header {
     }  
   }  
     
+  /* section2_add */
+
+  #section2_add {
+    width: 100%;
+    height: 400rem;
+    background: var(--black);
+    position: relative;
+  }
   
+  #section2_add .sec02_02 {
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #section2_add .sec02_box {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #section2_add .sec02_con {
+    font-family: "Quest";
+    color: var(--white);
+  }
+  #section2_add .sec02_con span {
+    font-family: "Saint";
+    color: var(--blue);
+  }
+  
+  #section2_add .sec02_A {
+    position: absolute;
+    transform: translate(0%, -50%);
+    width: 100%;
+    height: 60vh;
+    font-size: 6.5vw;
+    line-height: 5.5vw;
+    top: 50%;
+    left: 10%;
+  }
+  
+  #section2_add .sec02_B {
+    position: absolute;
+    transform: translate(0%, -50%);
+    width: 100%;
+    height: 60vh;
+    font-size: 8vw;
+    line-height: 7.5vw;
+    top: 40%;
+    left: -5%;
+  }
+  
+  #section2_add .sec02_con em {
+    opacity: 0;
+  }
+  #section2_add .sec02_con .op {
+    opacity: 1;
+  }
+  #section2_add .sec02_con .no {
+    opacity: 0;
+  }
+  
+  /* sec02_A */
+  #section2_add .sec02_A .A01 {
+    position: absolute;
+  }
+  #section2_add .sec02_A .A02 {
+    position: absolute;
+    top: 20%;
+  }
+  #section2_add .sec02_A .A03 {
+    position: absolute;
+    top: 39%;
+  }
+  #section2_add .sec02_A .A04 {
+    position: absolute;
+    top: 60%;
+  }
+  #section2_add .sec02_A .A05 {
+    position: absolute;
+    top: 80%;
+  }
+  
+  /* sec02_B */
+  #section2_add .sec02_B .B01 {
+    position: absolute;
+    top: 2%;
+    left: 4%;
+  }
+  #section2_add .sec02_B .B02 {
+    position: absolute;
+    top: 25%;
+    left: -1%;
+  }
+  #section2_add .sec02_B .B03 {
+    position: absolute;
+    top: 52%;
+    left: 7%;
+  }
+  #section2_add .sec02_B .B04 {
+    position: absolute;
+    top: 78%;
+    left: 12%;
+  }
+  #section2_add .sec02_B .B05 {
+    position: absolute;
+    top: 105%;
+    left: 4%;
+  }
+  
+  /* sec02_C */
+  #section2_add .sec02_C {
+    position: absolute;
+    transform: translate(0%, -50%);
+    width: 100%;
+    height: 60vh;
+    font-size: 5vw;
+    line-height: 4.5vw;
+    top: 50%;
+    left: 10%;
+    letter-spacing: -1vw;
+    word-spacing: 1vw;
+  }
+  
+  /* sec02_C */
+  #section2_add .sec02_D {
+    position: absolute;
+    transform: translate(0%, -50%);
+    width: 100%;
+    height: 60vh;
+    font-size: 6vw;
+    line-height: 5.5vw;
+    top: 40%;
+    left: -5%;
+  }
+  
+  /* sec02_C */
+  #section2_add .sec02_C .C01 {
+    position: absolute;
+    top: 3%;
+  }
+  #section2_add .sec02_C .C02 {
+    position: absolute;
+    top: 22%;
+  }
+  #section2_add .sec02_C .C03 {
+    position: absolute;
+    top: 42%;
+  }
+  #section2_add .sec02_C .C04 {
+    position: absolute;
+    top: 63%;
+  }
+  #section2_add .sec02_C .C05 {
+    position: absolute;
+    top: 84%;
+  }
+  
+  /* sec02_D */
+  #section2_add .sec02_D .D01 {
+    position: absolute;
+    top: 7%;
+    left: 4%;
+  }
+  #section2_add .sec02_D .D02 {
+    position: absolute;
+    top: 30%;
+    left: 6%;
+  }
+  #section2_add .sec02_D .D03 {
+    position: absolute;
+    top: 56%;
+    left: 7%;
+  }
+  #section2_add .sec02_D .D04 {
+    position: absolute;
+    top: 83%;
+    left: 12%;
+  }
+  #section2_add .sec02_D .D05 {
+    position: absolute;
+    top: 110%;
+    left: 4%;
+  }
+  /*section2 img */
+  #section2_add .sec02_main {
+    position: absolute;
+    top: 50%;
+    right: -3%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  #section2_add .sec02_main img {
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    width: 17vw;
+    filter: brightness(0.8);
+  }
+  #section2_add .sec02_img {
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+  }
+  #section2_add .sec02_img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15vw;
+    filter: brightness(0.8);
+    opacity: 0;
+  }
+  /* 오프닝 */
+  #section2_add .sec02_img .opening_01.picAni {
+    animation: pic 0.8s linear 0s;
+    transform-origin: 100% 0;
+  }
+  #section2_add .sec02_img .opening_02.picAni {
+    animation: pic 0.8s linear 0.1s;
+    transform-origin: 100% 0;
+  }
+  #section2_add .sec02_img .opening_03.picAni {
+    animation: pic 0.8s linear 0.2s;
+    transform-origin: 100% 0;
+  }
+  #section2_add .sec02_img .opening_04.picAni {
+    animation: pic 0.8s linear 0.3s;
+    transform-origin: 100% 0;
+  }
+  #section2_add .sec02_img .opening_05.picAni {
+    animation: pic 0.8s linear 0.4s;
+    transform-origin: 100% 0;
+  }
+  
+  /* slider */
+  #section2_add .sec02_img .slider_01.picAni {
+    animation: pic 5.35s linear 0.4s infinite;
+    transform-origin: 100% 0;
+  }
+  #section2_add .sec02_img .slider_02.picAni {
+    animation: pic 5.35s linear 0.95s infinite;
+    transform-origin: 100% 0;
+  }
+  #section2_add .sec02_img .slider_03.picAni {
+    animation: pic 5.35s linear 1.5s infinite;
+    transform-origin: 100% 0;
+  }
+  #section2_add .sec02_img .slider_04.picAni {
+    animation: pic 5.35s linear 2.05s infinite;
+    transform-origin: 100% 0;
+  }
+  #section2_add .sec02_img .slider_05.picAni {
+    animation: pic 5.35s linear 2.6s infinite;
+    transform-origin: 100% 0;
+  }
+  #section2_add .sec02_img .slider_06.picAni {
+    animation: pic 5.35s linear 3.15s infinite;
+    transform-origin: 100% 0;
+  }
+  #section2_add .sec02_img .slider_07.picAni {
+    animation: pic 5.35s linear 3.7s infinite;
+    transform-origin: 100% 0;
+  }
+  
+  /* 애니메이션 */
+  @keyframes pic {
+    0% {
+      opacity: 1;
+      transform: rotate(90deg) translate(700px) rotate(-90deg);
+    }
+    100% {
+      opacity: 1;
+      transform: rotate(270deg) translate(700px) rotate(-90deg);
+    }
+  }
