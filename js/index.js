@@ -36,7 +36,6 @@
 //     });
 //   });
 // });
-var obj = $('.main__logo img');
   window.onload = () => {
   gsap.fromTo(".main__logo img",{y: 1500, transform: 'scale(2.5)',}, {
     duration: 1,
