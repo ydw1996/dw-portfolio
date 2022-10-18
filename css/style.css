@@ -43,7 +43,7 @@ header {
 }
 .header__logo__box:hover {
   transition: 1s;
-  rotate: 45deg;
+  transform: rotateX( 180deg )
 }
 .header__logo {
     width: 20px;
@@ -225,13 +225,11 @@ header {
     position: absolute;
     width: 28vw;
     left: -10%;
-    z-index: 98;
 }
 #section2 .stone_02 {
     position: absolute;
     width: 28vw;
     right: -15%;
-    z-index: 98;
 }
 #section2 .fragments {
     position: absolute;
@@ -242,7 +240,7 @@ header {
 /* section3 */
   #section3 {
     width: 100%;
-    height: 400rem;
+    height: 600rem;
     background: var(--black);
     position: relative;
   }
@@ -258,230 +256,62 @@ header {
   #section3 .sec03_box {
     width: 100%;
     height: 100%;
-  }
-  
-  #section3 .sec03_con {
-    font-family: "Gmarket";
-    color: var(--white);
-  }
-  #section3 .sec03_con span {
-    font-family: "Gmarket";
-    color: var(--blue);
-  }
-  
-  /* sec03_A */
-  #section3 .sec03_A {
-    position: absolute;
-    transform: translate(0%, -50%);
-    width: 100%;
-    height: 60vh;
-    font-size: 5vw;
-    line-height: 5.5vw;
-    top: 54%;
-    left: 10%;
+    display: flex;
   }
 
-  /* sec03_B */
-  /* #section3 .sec03_B {
-    position: absolute;
-    transform: translate(0%, -50%);
-    width: 100%;
-    height: 60vh;
-    font-size: 7.5vw;
-    line-height: 7.5vw;
-    top: 40%;
-    left: -5%;
-  }
+/* sec03_txt */
+#section3 .sec03_txt {
+  position: relative;
+  width: 60%;
+  font-family: "Gmarket";
+  color: var(--white);
+}
+#section3 .sec03_txt em {
+  color: var(--blue);
+}
 
-  #section3 .sec03_B .B01 {
-    position: absolute;
-    top: 2%;
-    left: 4%;
-  }
-  #section3 .sec03_B .B02 {
-    position: absolute;
-    top: 25%;
-    left: -1%;
-  }
-  #section3 .sec03_B .B03 {
-    position: absolute;
-    top: 52%;
-    left: 7%;
-  }
-  #section3 .sec03_B .B04 {
-    position: absolute;
-    top: 78%;
-    left: 12%;
-  }
-  #section3 .sec03_B .B05 {
-    position: absolute;
-    top: 105%;
-    left: 4%;
-  } */
+/* sec03_A */
+#section3 .sec03_A {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-size: 5vw;
+  line-height: 5.5vw;
+}
 
-  /* sec03_C */
-  /* #section3 .sec03_C {
-    position: absolute;
-    transform: translate(0%, -50%);
-    width: 100%;
-    height: 60vh;
-    font-size: 4.5vw;
-    line-height: 4.5vw;
-    top: 50%;
-    left: 10%;
-    letter-spacing: -1vw;
-    word-spacing: 1vw;
-  }
-  
-  #section3 .sec03_C .C01 {
-    position: absolute;
-    top: 3%;
-  }
-  #section3 .sec03_C .C02 {
-    position: absolute;
-    top: 22%;
-  }
-  #section3 .sec03_C .C03 {
-    position: absolute;
-    top: 42%;
-  }
-  #section3 .sec03_C .C04 {
-    position: absolute;
-    top: 63%;
-  }
-  #section3 .sec03_C .C05 {
-    position: absolute;
-    top: 84%;
-  } */
-  
-  /* sec03_D */
-  /* #section3 .sec03_D {
-    position: absolute;
-    transform: translate(0%, -50%);
-    width: 100%;
-    height: 60vh;
-    font-size: 5vw;
-    line-height: 5.5vw;
-    top: 40%;
-    left: -5%;
-  }
-  #section3 .sec03_D .D01 {
-    position: absolute;
-    top: 7%;
-    left: 4%;
-  }
-  #section3 .sec03_D .D02 {
-    position: absolute;
-    top: 30%;
-    left: 6%;
-  }
-  #section3 .sec03_D .D03 {
-    position: absolute;
-    top: 56%;
-    left: 7%;
-  }
-  #section3 .sec03_D .D04 {
-    position: absolute;
-    top: 83%;
-    left: 12%;
-  }
-  #section3 .sec03_D .D05 {
-    position: absolute;
-    top: 110%;
-    left: 4%;
-  } */
+/*section3 img */
+#section3 .sec03_img {
+  position: relative;
+  width: 40%;
+  z-index: -1;
+}
+#section3 .sec03_pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  width: 14vw;
+  filter: brightness(0.8);
+}
 
-  /*section3 img */
-  #section3 .sec03_main {
-    position: absolute;
-    top: 50%;
-    right: -3%;
-    transform: translate(-50%, -50%);
-  }
-  #section3 .sec03_main img {
-    position: absolute;
-    bottom: 20%;
-    right: 20%;
-    transform: translate(-50%, -50%);
-    width: 17vw;
-    filter: brightness(0.8);
-  }
-  #section3 .sec03_img {
-    position: absolute;
-    top: 20%;
-    right: 0%;
-    transform: translate(-50%, -50%);
-  }
-  #section3 .sec03_img img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 15vw;
-    filter: brightness(0.8);
-    opacity: 0;
-  }
+#section3 .sec03_pic img{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
 
-  /* 오프닝 */
-  /* #section3 .sec03_img .opening_01.picAni {
-    animation: pic 0.8s linear 0s;
-    transform-origin: 100% 0;
-  }
-  #section3 .sec03_img .opening_02.picAni {
-    animation: pic 0.8s linear 0.1s;
-    transform-origin: 100% 0;
-  }
-  #section3 .sec03_img .opening_03.picAni {
-    animation: pic 0.8s linear 0.2s;
-    transform-origin: 100% 0;
-  }
-  #section3 .sec03_img .opening_04.picAni {
-    animation: pic 0.8s linear 0.3s;
-    transform-origin: 100% 0;
-  }
-  #section3 .sec03_img .opening_05.picAni {
-    animation: pic 0.8s linear 0.4s;
-    transform-origin: 100% 0;
-  } */
-  
-  /* slider */
-  /* #section3 .sec03_img .slider_01.picAni {
-    animation: pic 5.35s linear 0.4s infinite;
-    transform-origin: 100% 0;
-  }
-  #section3 .sec03_img .slider_02.picAni {
-    animation: pic 5.35s linear 0.95s infinite;
-    transform-origin: 100% 0;
-  }
-  #section3 .sec03_img .slider_03.picAni {
-    animation: pic 5.35s linear 1.5s infinite;
-    transform-origin: 100% 0;
-  }
-  #section3 .sec03_img .slider_04.picAni {
-    animation: pic 5.35s linear 2.05s infinite;
-    transform-origin: 100% 0;
-  }
-  #section3 .sec03_img .slider_05.picAni {
-    animation: pic 5.35s linear 2.6s infinite;
-    transform-origin: 100% 0;
-  }
-  #section3 .sec03_img .slider_06.picAni {
-    animation: pic 5.35s linear 3.15s infinite;
-    transform-origin: 100% 0;
-  }
-  #section3 .sec03_img .slider_07.picAni {
-    animation: pic 5.35s linear 3.7s infinite;
-    transform-origin: 100% 0;
-  } */
-  
-  /* 애니메이션 */
-  /* @keyframes pic {
-    0% {
-      opacity: 1;
-      transform: rotate(90deg) translate(35vw) rotate(-90deg);
-    }
-    100% {
-      opacity: 1;
-      transform: rotate(270deg) translate(35vw) rotate(-90deg);
-    }
-  } */
+/* section4 */
+#section4 {
+  width: 100%;
+  height: 100rem;
+  background: var(--black);
+  position: relative;
+}

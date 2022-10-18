@@ -59,7 +59,8 @@ width: 32vw;
 
   /* sec03_A */
   #section3 .sec03_A {
-    font-size: 8vw;
+    font-size: 7vw;
+    line-height: 7.5vw;
   }
 
   #section3 .sec03_A .A01 {
@@ -79,7 +80,7 @@ width: 32vw;
   }
 
   /* sec03_B */
-  #section3 .sec03_B {
+  /* #section3 .sec03_B {
     font-size: 10vw;
   }
 
@@ -102,10 +103,10 @@ width: 32vw;
   #section3 .sec03_B .B05 {
     top: 75%;
     left: 10%;
-  }
+  } */
 
   /* sec03_C */
-  #section3 .sec03_C {
+  /* #section3 .sec03_C {
     font-size: 6vw;
   }
   #section3 .sec03_C .C01 {
@@ -122,10 +123,10 @@ width: 32vw;
   }
   #section3 .sec03_C .C05 {
     top: 70%;
-  }
+  } */
   
   /* sec03_D */
-  #section3 .sec03_D {
+  /* #section3 .sec03_D {
     font-size: 6.5vw;
   }
   #section3 .sec03_D .D01 {
@@ -147,7 +148,7 @@ width: 32vw;
   #section3 .sec03_D .D05 {
     top: 75%;
     left: 10%;
-  }
+  } */
 
 /*section3 img */
 #section3 .sec03_img img {
