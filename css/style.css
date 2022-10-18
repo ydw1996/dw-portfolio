@@ -144,6 +144,9 @@ header {
     top: 50%;
     transform: translate(-50%,-50%);
 }
+#section1 .main__logo img{
+  opacity: 0;
+}
 
 /* sec01 오프닝 */
 .sec01__title {

@@ -1,6 +1,6 @@
   window.onload = () => {
 
-  gsap.fromTo(".main__logo img",{y: 1500, transform: 'scale(2.5)',}, {
+  gsap.fromTo(".main__logo img",{y: 1500, opacity: 1, transform: 'scale(2.5)',}, {
     duration: 1,
     delay: 0.2,
     ease: "circ.out",
