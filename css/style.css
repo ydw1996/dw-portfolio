@@ -261,22 +261,12 @@ header {
   }
   
   #section3 .sec03_con {
-    font-family: "Quest";
+    font-family: "Gmarket";
     color: var(--white);
   }
   #section3 .sec03_con span {
-    font-family: "Saint";
+    font-family: "Gmarket";
     color: var(--blue);
-  }
- 
-  #section3 .sec03_con em {
-    opacity: 0;
-  }
-  #section3 .sec03_con .op {
-    opacity: 1;
-  }
-  #section3 .sec03_con .no {
-    opacity: 0;
   }
   
   /* sec03_A */
@@ -285,34 +275,14 @@ header {
     transform: translate(0%, -50%);
     width: 100%;
     height: 60vh;
-    font-size: 6vw;
+    font-size: 5vw;
     line-height: 5.5vw;
-    top: 50%;
+    top: 54%;
     left: 10%;
   }
 
-  #section3 .sec03_A .A01 {
-    position: absolute;
-  }
-  #section3 .sec03_A .A02 {
-    position: absolute;
-    top: 20%;
-  }
-  #section3 .sec03_A .A03 {
-    position: absolute;
-    top: 39%;
-  }
-  #section3 .sec03_A .A04 {
-    position: absolute;
-    top: 60%;
-  }
-  #section3 .sec03_A .A05 {
-    position: absolute;
-    top: 80%;
-  }
-
   /* sec03_B */
-  #section3 .sec03_B {
+  /* #section3 .sec03_B {
     position: absolute;
     transform: translate(0%, -50%);
     width: 100%;
@@ -347,10 +317,10 @@ header {
     position: absolute;
     top: 105%;
     left: 4%;
-  }
+  } */
 
   /* sec03_C */
-  #section3 .sec03_C {
+  /* #section3 .sec03_C {
     position: absolute;
     transform: translate(0%, -50%);
     width: 100%;
@@ -382,10 +352,10 @@ header {
   #section3 .sec03_C .C05 {
     position: absolute;
     top: 84%;
-  }
+  } */
   
   /* sec03_D */
-  #section3 .sec03_D {
+  /* #section3 .sec03_D {
     position: absolute;
     transform: translate(0%, -50%);
     width: 100%;
@@ -419,7 +389,7 @@ header {
     position: absolute;
     top: 110%;
     left: 4%;
-  }
+  } */
 
   /*section3 img */
   #section3 .sec03_main {
@@ -453,7 +423,7 @@ header {
   }
 
   /* 오프닝 */
-  #section3 .sec03_img .opening_01.picAni {
+  /* #section3 .sec03_img .opening_01.picAni {
     animation: pic 0.8s linear 0s;
     transform-origin: 100% 0;
   }
@@ -472,10 +442,10 @@ header {
   #section3 .sec03_img .opening_05.picAni {
     animation: pic 0.8s linear 0.4s;
     transform-origin: 100% 0;
-  }
+  } */
   
   /* slider */
-  #section3 .sec03_img .slider_01.picAni {
+  /* #section3 .sec03_img .slider_01.picAni {
     animation: pic 5.35s linear 0.4s infinite;
     transform-origin: 100% 0;
   }
@@ -502,10 +472,10 @@ header {
   #section3 .sec03_img .slider_07.picAni {
     animation: pic 5.35s linear 3.7s infinite;
     transform-origin: 100% 0;
-  }
+  } */
   
   /* 애니메이션 */
-  @keyframes pic {
+  /* @keyframes pic {
     0% {
       opacity: 1;
       transform: rotate(90deg) translate(35vw) rotate(-90deg);
@@ -514,4 +484,4 @@ header {
       opacity: 1;
       transform: rotate(270deg) translate(35vw) rotate(-90deg);
     }
-  }
+  } */
