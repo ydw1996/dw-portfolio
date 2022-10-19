@@ -27,7 +27,6 @@
     width: 65vw;
 }        
 .st01{
-    top: 40%;
     left: -100%;
     font-size: 18vw;
 }
@@ -56,18 +55,19 @@
     font-size: 3.2vw;
 } 
 #section2 .stone_01 {
+    top: 70%;
     left: -20%;
-    width: 50vw;
+    width: 55vw;
 }  
 #section2 .stone_02 {
-    top: 0%;
+    top: 20%;
     right: -25%;
-    width: 50vw;
+    width: 55vw;
 } 
 #section2 .fragments {
-    top: 17%;
+    top: 50%;
     right: 15%;
-    width: 40vw;
+    width: 45vw;
 }  
 
 /* section3*/
@@ -92,17 +92,13 @@ font-size: 12vw;
 
 /* section4*/
 #section4 .sec04 {
-    overflow: hidden;
+    overflow-x: hidden;
 }  
 #section4 span {
     font-size: 20vw;
   }
-#section4 .sec04_img {
-top: 45%;
-left: 45%;
-}  
 #section4 .sec04_img img {
-width: 24vw;
-height: 36vw;
+    width: 24vw;
+    height: 36vw;
 }
 }

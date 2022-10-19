@@ -42,6 +42,17 @@
   #section3 .sec03 .txt_sub4{
   font-size: 9vw;
   }
+  /* section4 */
+  #section4 .sec04 {
+    overflow-x: hidden;
+  }  
+   #section4 span {
+    font-size: 15vw;
+  }
+  #section4 .sec04_img img {
+    width: 14vw;
+    height: 21vw;
+  }
 }
 
 /* 1200px */
@@ -70,7 +81,6 @@ opacity: 1;
 width: 45vw;
 }
 .st01{
-top: 40%;
 font-size: 12vw;
 }
 .st02{
@@ -145,4 +155,16 @@ width: 32vw;
   font-size: 14vw;
   }
 }  
+
+ /*section4 */
+ #section4 .sec04 {
+  overflow-x: hidden;
+}  
+ #section4 span {
+  font-size: 18vw;
+}
+#section4 .sec04_img img {
+  width: 18vw;
+  height: 27vw;
+}
 }
