@@ -1,3 +1,4 @@
+/* 1800px */
 @media all and (max-width:1800px) {
   /* section3 */
   #section3 h3{
@@ -19,6 +20,8 @@
   font-size: 7vw;
   }
 }
+
+/* 1500px */
 @media all and (max-width:1500px) {
   /* section3 */
   #section3 h3{
@@ -40,6 +43,8 @@
   font-size: 9vw;
   }
 }
+
+/* 1200px */
 @media all and (max-width:1200px) {
 
 /* header*/    
@@ -121,23 +126,23 @@ width: 32vw;
   }
 }
 @media all and (max-width:1000px) {
-    #section3 h3{
-    top: -40%;
-    }
-    #section3 .sec03 .txt_main {
-    font-size: 23vw;
-    }
-    #section3 .sec03 .txt_sub1 {
-    font-size: 20vw;
-    }
-    #section3 .sec03 .txt_sub2{
-    font-size: 18vw;
-    }
-    #section3 .sec03 .txt_sub3{
-    font-size: 16vw;
-    }
-    #section3 .sec03 .txt_sub4{
-    font-size: 14vw;
-    }
-  }  
+  #section3 h3{
+  top: -40%;
+  }
+  #section3 .sec03 .txt_main {
+  font-size: 23vw;
+  }
+  #section3 .sec03 .txt_sub1 {
+  font-size: 20vw;
+  }
+  #section3 .sec03 .txt_sub2{
+  font-size: 18vw;
+  }
+  #section3 .sec03 .txt_sub3{
+  font-size: 16vw;
+  }
+  #section3 .sec03 .txt_sub4{
+  font-size: 14vw;
+  }
+}  
 }
