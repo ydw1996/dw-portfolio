@@ -102,3 +102,33 @@ font-size: 12vw;
     height: 36vw;
 }
 }
+
+@media all and (max-width:450px) {
+#section3 h3{
+top: -25%;
+}
+#section3 .sec03 .txt_main {
+font-size: 40vw;
+}
+#section3 .sec03 .txt_sub1 {
+font-size: 36vw;
+}
+#section3 .sec03 .txt_sub2{
+font-size: 32vw;
+}
+#section3 .sec03 .txt_sub3{
+font-size: 28vw;
+}
+#section3 .sec03 .txt_sub4{
+font-size: 24vw;
+}
+
+/* section4*/
+#section4 span {
+    font-size: 22vw;
+}
+#section4 .sec04_img img {
+    width: 28vw;
+    height: 42vw;
+}
+}
