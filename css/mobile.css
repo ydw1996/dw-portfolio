@@ -101,26 +101,48 @@ font-size: 12vw;
     width: 24vw;
     height: 36vw;
 }
+
+/* section5*/
+#section5 .sec05_con {
+    flex-direction: column;
+}
+/* section5 txt*/
+#section5 .pro_txt{ 
+    width: 50%;
+}
+#section5 .pro_title {
+    line-height: 11vw;
+}
+#section5 .pro_mask {
+    overflow: hidden;
+    height: 11vw;
+}
+#section5 .pro_nf {
+    font-size: 11vw;
 }
 
+#section5 .pro_btn_txt{
+    font-size: 3vw;
+}
+}
 @media all and (max-width:450px) {
 #section3 h3{
-top: -25%;
+    top: -25%;
 }
 #section3 .sec03 .txt_main {
-font-size: 40vw;
+    font-size: 40vw;
 }
 #section3 .sec03 .txt_sub1 {
-font-size: 36vw;
+    font-size: 36vw;
 }
 #section3 .sec03 .txt_sub2{
-font-size: 32vw;
+    font-size: 32vw;
 }
 #section3 .sec03 .txt_sub3{
-font-size: 28vw;
+    font-size: 28vw;
 }
 #section3 .sec03 .txt_sub4{
-font-size: 24vw;
+    font-size: 24vw;
 }
 
 /* section4*/
@@ -130,5 +152,24 @@ font-size: 24vw;
 #section4 .sec04_img img {
     width: 28vw;
     height: 42vw;
+}
+
+/* section5 txt*/
+#section5 .pro_txt{ 
+    width: 70%;
+}
+#section5 .pro_title {
+    line-height: 14vw;
+}
+#section5 .pro_mask {
+    overflow: hidden;
+    height: 14vw;
+}
+#section5 .pro_nf {
+    font-size: 14vw;
+}
+
+#section5 .pro_btn_txt{
+    font-size: 3.5vw;
 }
 }

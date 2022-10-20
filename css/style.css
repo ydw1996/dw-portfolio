@@ -325,16 +325,152 @@ header {
     height: 18vw;
     position: absolute;
   }
-
   #section4 .sec04_img .card01, .card02, .card03, .card04 {
     z-index: 20;
   }
 
-  /* section05*/
-  #section5 {
-    width: 100%;
-    height: 300rem;
-    background: var(--black);
-    position: relative;
-    z-index: -1;
-  }
+/* section5 */
+#section5 {
+  width: 100%;
+  height: 700rem;
+  margin-top: 20rem;
+}
+
+/* lush/puma */
+#section5 .sec05_01 {
+  width: 100%;
+  height: 350rem;
+}
+
+/* movie/php */
+#section5 .sec05_02 {
+  width: 100%;
+  height: 350rem;
+}
+
+/* react/vue */
+#section5 .sec05_03 {
+  width: 100%;
+  height: 350rem;
+}
+
+#section5 .sec05_con {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+#section5 .project {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#section5 .left {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+#section5 .right {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* section5 project pro_img*/
+#section5 .pro_img {
+  display: flex;
+}
+#section5 .lt {
+  flex-direction: row;
+}
+#section5 .rg {
+  flex-direction: row-reverse;
+}
+#section5 .pro {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#section5 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+  transition-duration: 0.5s;
+}
+#section5 img:hover {
+  filter: none;
+  transition-duration: 1s;
+  width: 110%;
+}
+
+/* section5 project pro_txt*/
+#section5 .pro_txt{
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+  font-family: "Saint";
+  z-index: 99;
+  left: 50%;
+  transform: translate(-50%);
+  color: var(--white);
+}
+#section5 .pro_title {
+  line-height: 5vw;
+  text-align: center;
+  cursor: default;
+}
+#section5 .pro_mask {
+  overflow: hidden;
+  height: 5vw;
+}
+#section5 .pro_nf {
+  font-size: 6vw;
+}
+#section5 .left .pro_nf{
+  color: var(--white);
+}
+#section5 .right .pro_nf{
+  color: var(--blue);
+}
+
+/* section5 project pro_btn*/
+#section5 .pro_btn {
+  margin-top: 15%;
+  margin-bottom: 10%;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+#section5 .pro_btn_site {
+  width: 40%;
+  border-radius: 5vw;
+  padding: 2.5% 5%;
+}
+#section5 .left .pro_btn_site {
+  border: 2px solid var(--white);
+}
+#section5 .right .pro_btn_site {
+  border: 2px solid var(--blue);
+}
+#section5 .pro_btn_txt{
+  font-size: 1vw;
+}
+#section5 .left .pro_btn_txt{
+  color: var(--white);
+}
+#section5 .right .pro_btn_txt{
+  color: var(--blue);
+}
