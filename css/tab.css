@@ -55,17 +55,17 @@
   }
   /* section5*/
   #section5 .pro_txt{ 
-    width: 60%;
+    width: 50%;
   }
   #section5 .pro_title {
-    line-height: 7vw;
+    line-height: 6.5vw;
   }
   #section5 .pro_mask {
     overflow: hidden;
-    height: 7vw;
+    height: 6.5vw;
   }
   #section5 .pro_nf {
-    font-size: 7vw;
+    font-size: 6.5vw;
   }
   
   /* section5 btn*/
@@ -93,6 +93,18 @@ display: none;
 } 
 .mobile__btn{
 opacity: 1;
+}
+.header__logo__box {
+  margin-top: 15px;
+  width: 30px;
+  height: 30px;
+}
+.header__logo {
+  font-size: 2vw;
+  width: 15px;
+  height: 15px;
+  margin-top: 23px;
+  margin-left: 8px;
 }
 
 /* section1*/
