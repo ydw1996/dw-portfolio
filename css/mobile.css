@@ -105,11 +105,61 @@ font-size: 12vw;
 #section5 .pro_nf {
     font-size: 11vw;
 }
-
 #section5 .pro_btn_txt{
     font-size: 3vw;
 }
+
+/* section6 */
+#section6 .script01 .main_img {
+    width: 55vw;
+    height: 55vw;
+    border-radius: 27.5vw;
 }
+/* main_txt*/
+#section6 .script01 {
+    flex-direction: column;
+    padding-top: 60px;
+}
+#section6 .main_txt {
+    font-size: 9.5vw;
+    line-height: 9.5vw;
+}
+#section6 .sc04 {
+    font-size: 2vw;
+}
+#section6 .script01 .main01 {
+    width: 100%;
+    height: 90%;
+}
+#section6 .script01 .main02 {
+    width: 10%;
+    height: 100%;
+    rotate: 90deg;
+    margin-right: 0;
+}
+
+#section6 .main02 .main_roll {
+    display: none;
+}
+
+/* #section6 .main02 .main_roll {
+    width: 100%;
+    height: 80%;
+    border-bottom: 1px solid var(--white);
+    border-top: 1px solid var(--white);
+    border-left: 0px solid var(--white);
+    border-right: 0px solid var(--white);
+    padding: 0;
+    flex-direction: column;
+}
+#section6 .main02 .main_roll .roll {
+    width: 200vw;
+    height: 50%;
+} */
+}
+
+
+/* 450px */
 @media all and (max-width:450px) {
 #section3 h3{
     top: -25%;
@@ -153,8 +203,8 @@ font-size: 12vw;
 #section5 .pro_nf {
     font-size: 14vw;
 }
-
 #section5 .pro_btn_txt{
     font-size: 3.5vw;
 }
+
 }

@@ -491,7 +491,7 @@ header {
   overflow: hidden;
 }
 #section6 .sec06 .sec06_con {
-  width: 500vw;
+  width: 600vw;
   height: 100vh;
   position: relative;
   display: flex;
@@ -499,7 +499,7 @@ header {
   color: #fff;
 }
 
-/* script01 main */
+/* script01 */
 #section6 .script01 {
   width: 100vw;
   height: 100vh;
@@ -508,6 +508,17 @@ header {
   justify-content: center;
   position: relative;
 }
+/* main01 */
+#section6 .script01 .main01 {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* main_img*/
 #section6 .script01 .main_img {
   position: absolute;
   width: 30vw;
@@ -528,45 +539,104 @@ header {
   }
 }
 
-/* script01 main_txt*/
-#section6 .script01 .main_txt {
+/* main_txt*/
+#section6 .main_txt {
   font-family: "Saint";
   font-size: 6.5vw;
-  line-height: 7.5vw;
-  width: 100%;
-  height: 100%;
+  line-height: 6.5vw;
   display: flex;
-  flex-direction: column;
   text-align: center;
+  flex-direction: column;
+  position: absolute;
+}
+/* sc*/
+#section6 .sc04 {
+  width: 100%;
+  font-size: 1.2vw;
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+#section6 .sc04 em{
+  font-family: "Quest";
 }
 
-#section6 .script01 .sc01 {
+/* main01 bottom */
+#section6 .main01 .main_bottom {
   position: absolute;
-  top: 38%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-#section6 .script01 .sc02 {
-  position: absolute;
-  top: 51%;
-  left: 38%;
-  transform: translate(-50%, -50%);
-}
-#section6 .script01 .sc03 {
-  position: absolute;
-  top: 64%;
-  left: 53%;
-  transform: translate(-50%, -50%);
-}
-#section6 .script01 .sc04 {
-  position: absolute;
-  font-size: 1.2vw;
-  top: 73%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-}
-#section6 .script01 .sc04 em{
+  bottom: 0;
+  width: 90%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85vw;
   font-family: "Quest";
+  padding-right: 5%;
+}
+#section6 .main_bottom .btm_left{
+  width: 25%;
+}
+#section6 .main_bottom .btm_right{
+  width: 25%;
+}
+#section6 .main_bottom .script_con{
+  display: flex;
+  justify-content: space-between;
+}
+#section6 .main_bottom .btm_right .script_con{
+  justify-content: space-evenly;
+}
+#section6 .main_bottom .con_arrow{
+  width: 3.4vw;
+  height: 1.6vw;
+  border-radius: 1vw;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section6 .main_bottom .con_arrow img{
+  width: 1.4vw;
+}
+
+/* main02 */
+#section6 .main02 {
+  position: absolute;
+  right: 0;
+  width: 5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-right: 0.5%;
+}
+
+/* main_txt_roll */
+#section6 .main02 .main_roll {
+  width: 80%;
+  height: 100vh;
+  border-left: 1px solid var(--white);
+  border-right: 1px solid var(--white);
+  box-sizing: border-box;
+  overflow: hidden;
+  writing-mode: vertical-rl;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2vw;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#section6 .main02 .main_roll em {
+  color: var(--blue);
+}
+#section6 .main02 .main_roll .roll {
+  width: 50%;
+  height: 200vh;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 
@@ -575,7 +645,6 @@ header {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-color: #88d1ff;
 }
 
 /* script03 */
